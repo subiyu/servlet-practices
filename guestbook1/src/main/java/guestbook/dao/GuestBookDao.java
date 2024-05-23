@@ -68,7 +68,7 @@ public class GuestBookDao {
 				vo.setName(name);
 				vo.setPassword(password);
 				vo.setContents(contents);
-				vo.setReg_date(reg_date);
+				vo.setRegDate(reg_date);
 				
 				result.add(vo);
 			}

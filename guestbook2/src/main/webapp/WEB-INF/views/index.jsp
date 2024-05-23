@@ -21,7 +21,7 @@
 				<td colspan=4><textarea name="message" cols=60 rows=5></textarea></td>
 			</tr>
 			<tr>
-				<td colspan=4 align=right><input type="submit" VALUE=" 확인 "></td>
+				<td colspan=4 align=right><input type="submit" VALUE="확인"></td>
 			</tr>
 		</table>
 	</form>
@@ -35,7 +35,7 @@
 		<tr>
 			<td><%=vo.getNo() %></td>
 			<%=vo.getName() %>
-			<%=vo.getReg_date() %>
+			<%=vo.getRegDate() %>
 			<td><a href="<%=request.getContextPath() %>/gb?a=deleteform&no=<%=vo.getNo() %>">삭제</a></td>
 		</tr>
 		<tr>

@@ -35,7 +35,7 @@
 		<tr>
 			<td><%=vo.getNo() %></td>
 			<%=vo.getName() %>
-			<%=vo.getReg_date() %>
+			<%=vo.getRegDate() %>
 			<td><a href="deleteform.jsp?no=<%=vo.getNo() %>">삭제</a></td>
 		</tr>
 		<tr>

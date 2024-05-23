@@ -10,6 +10,5 @@
   	<module>guestbook1</module>
   	<module>emaillist2</module>
   	<module>guestbook2</module>
-  	<module>groupbook2</module>
   </modules>
 </project>

@@ -43,11 +43,11 @@ public class GuestBookVo {
 		this.contents = contents;
 	}
 	
-	public String getReg_date() {
+	public String getRegDate() {
 		return regDate;
 	}
 	
-	public void setReg_date(String regDate) {
+	public void setRegDate(String regDate) {
 		this.regDate = regDate;
 	}
 	
