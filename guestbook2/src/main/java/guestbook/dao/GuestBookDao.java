@@ -30,7 +30,7 @@ public class GuestBookDao {
 		
 		try (
 			Connection conn = getConnection();
-			PreparedStatement pstmt1 = conn.prepareStatement("INSERT INTO guestbook(name, password, contents, reg_date) VALUES(?, ?, ?, now())");
+			PreparedStatement pstmt1 = conn.prepareStatement("INSERT INTO guestbook(name, password, contents, reg_date) VALUES(?, ?, ?, now()) ORDER BY reg_date desc");
 			PreparedStatement pstmt2 = conn.prepareStatement("select last_insert_id() from dual");
 		) {
 			pstmt1.setString(1, vo.getName());
